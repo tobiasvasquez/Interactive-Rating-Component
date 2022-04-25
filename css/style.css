@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(216, 12%, 15%);
+    font-family: 'Overpass', sans-serif;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.container {
+    background-color: hsl(213, 19%, 18%);
+    width: 500px;
+    margin: 200px auto;
+    border-radius: 30px;
+    padding: 40px;
+}
+
+.main,
+.opinion,
+.rating {
+    text-align: left;
+}
+
+.container img {
+    background-color: hsl(216, 12%, 28%);
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 0;
+    margin-bottom: 15px;
+}
+
+.main {
+    color: hsl(0, 0%, 100%);
+    font-size: 32px;
+}
+
+.rating {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rating ul li {
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(216, 12%, 54%);
+    padding: 18px 25px;
+    border-radius: 50px;
+}
+
+.rating ul {
+    text-align: center;
+}
+
+.opinion {
+    color: hsl(217, 12%, 63%);
+    margin-top: 20px;
+}
+
+button {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 50px;
+    padding: 15px;
+    color: hsl(0, 0%, 100%);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+button:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.rating_confirmation {
+    text-align: center;
+}
+.rating_points{
+    border-radius: 30px;
+    padding: 10px 17px;
+    color: hsl(217, 12%, 63%);
+    background-color: hsl(216, 12%, 28%);
+}
+.rating_points:hover{
+    background-color:hsl(25, 97%, 53%);
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+}
